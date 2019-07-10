@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { padding: ",[0,100]," ",[0,30],"; }\n",],undefined,{path:"./pages/print/print/print.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/print/print/print.wxml') } }));

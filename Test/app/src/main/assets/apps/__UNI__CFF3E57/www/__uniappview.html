@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"html1","entryPagePath":"pages/login/login.html","page":{"pages/login/login.html":{"window":{"navigationBarTitleText":"登录","titleNView":false,"usingComponents":{"m-input":"/components/uni-media-label/m-input"}}},"pages/index/index.html":{"window":{"navigationBarTitleText":"pose端首页","titleNView":false,"usingComponents":{"list-box":"/components/uni-media-list/list_box"}}},"pages/vip/vip/vip.html":{"window":{"navigationBarTitleText":"会员","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation"}}},"pages/car/vip/vip.html":{"window":{"navigationBarTitleText":"车队会员","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation"}}},"pages/order/search/index.html":{"window":{"navigationBarTitleText":"订单查询","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation","order-list":"/components/uni-media-list/Order_list"}}},"pages/data/list/index.html":{"window":{"navigationBarTitleText":"本班数据","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation"}}},"pages/print/print/print.html":{"window":{"navigationBarTitleText":"打印","titleNView":false,"usingComponents":{"list-box":"/components/uni-media-list/list_box"}}},"pages/QR/qr/qr.html":{"window":{"navigationBarTitleText":"二维码","titleNView":false,"usingComponents":{}}},"pages/order/refund/index.html":{"window":{"navigationBarTitleText":"退款订单查询","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation","order-list":"/components/uni-media-list/Order_list"}}},"pages/vip/search/index.html":{"window":{"navigationBarTitleText":"会员查询","titleNView":false,"usingComponents":{}}},"pages/vip/enquiries/enquiries.html":{"window":{"navigationBarTitleText":"会员查询详情页","titleNView":false,"usingComponents":{"list-box":"/components/uni-media-list/list_box","car-header":"/components/uni-media-header/car_hader","new-nav":"/components/uni-media-navigation/navigation"}}},"pages/vip/orderList/index.html":{"window":{"navigationBarTitleText":"会员订单查询","titleNView":false,"usingComponents":{"order-list":"/components/uni-media-list/Order_list"}}},"pages/vip/refund/index.html":{"window":{"navigationBarTitleText":"会员退款订单查询","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation","order-list":"/components/uni-media-list/Order_list"}}},"pages/vip/integral/index.html":{"window":{"navigationBarTitleText":"会员积分操作","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation"}}},"pages/vip/Coupon/index.html":{"window":{"navigationBarTitleText":"会员优惠券","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation"}}},"pages/vip/member-recharge/member-recharge.html":{"window":{"navigationBarTitleText":"会员加油","titleNView":false,"usingComponents":{}}},"pages/vip/create-a-member/create-a-member.html":{"window":{"navigationBarTitleText":"创建会员","titleNView":false,"usingComponents":{}}},"pages/vip/member-recorded/member-recorded.html":{"window":{"navigationBarTitleText":"会员积分","titleNView":false,"usingComponents":{}}},"pages/car/enquiries/enquiries.html":{"window":{"navigationBarTitleText":"车队会员查询","titleNView":false,"usingComponents":{"list-box":"/components/uni-media-list/list_box","car-header":"/components/uni-media-header/car_hader"}}},"pages/car/integral/index.html":{"window":{"navigationBarTitleText":"车队积分操作","titleNView":false,"usingComponents":{"new-nav":"/components/uni-media-navigation/navigation"}}},"pages/car/orderList/index.html":{"window":{"navigationBarTitleText":"车队会员订单查询","titleNView":false,"usingComponents":{"order-list":"/components/uni-media-list/Order_list"}}},"pages/car/team-come-on/team-come-on.html":{"window":{"navigationBarTitleText":"车队加油","titleNView":false,"usingComponents":{}}},"pages/car/team-member-recharge/team-member-recharge.html":{"window":{"navigationBarTitleText":"车队会员充值","titleNView":false,"usingComponents":{}}},"pages/car/team-car-find/team-car-find.html":{"window":{"navigationBarTitleText":"车队车辆查询","titleNView":false,"usingComponents":{}}},"pages/car/create-the-team/create-the-team.html":{"window":{"navigationBarTitleText":"创建车队会员","titleNView":false,"usingComponents":{}}},"pages/car/team-recorded/team-recorded.html":{"window":{"navigationBarTitleText":"车队会员积分","titleNView":false,"usingComponents":{}}}},"global":{"window":{}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login/login","pages/index/index","pages/vip/vip/vip","pages/car/vip/vip","pages/order/search/index","pages/data/list/index","pages/print/print/print","pages/QR/qr/qr","pages/order/refund/index","pages/vip/search/index","pages/vip/enquiries/enquiries","pages/vip/orderList/index","pages/vip/refund/index","pages/vip/integral/index","pages/vip/Coupon/index","pages/vip/member-recharge/member-recharge","pages/vip/create-a-member/create-a-member","pages/vip/member-recorded/member-recorded","pages/car/enquiries/enquiries","pages/car/integral/index","pages/car/orderList/index","pages/car/team-come-on/team-come-on","pages/car/team-member-recharge/team-member-recharge","pages/car/team-car-find/team-car-find","pages/car/create-the-team/create-the-team","pages/car/team-recorded/team-recorded"],"subPackages":[],"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.0.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>
